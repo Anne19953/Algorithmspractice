@@ -23,6 +23,7 @@ class Solution:
             if sequence[j] < root:
                 return False
         #判断左子树是否为二叉树：
+
         left = True
         if i > 0:
             left = self.VerifySquenceOfBST(sequence[:i])
